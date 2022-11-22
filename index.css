@@ -1,0 +1,21 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+    height: 50vh;
+    width: 50vw;
+    background: #fff;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
